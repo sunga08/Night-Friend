@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/matching"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_start"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="출발지를 입력하세요"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bt_matching_search"
+            style="@android:style/Widget.Button"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+
+            android:layout_gravity="center_vertical"
+
+            android:layout_weight="1"
+            android:background="@drawable/button_matching"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="매칭"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_dest"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="목적지를 입력하세요"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bt_matching_cancel"
+            style="@android:style/Widget.Button"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+
+            android:layout_gravity="center_vertical"
+
+            android:layout_weight="1"
+            android:background="@drawable/button_matching"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="취소"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp">
+
+        <Button
+            android:id="@+id/bt_matching_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_setting_map"
+            android:text="매칭 지도"
+            android:textColor="@color/design_default_color_on_primary" />
+
+        <LinearLayout
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chat_room"
+                android:layout_width="17dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/baseline_local_post_office_black_18"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/bt_matching_setting"
+                android:layout_width="17dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/baseline_settings_black_18" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lt_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
