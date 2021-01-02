@@ -34,8 +34,8 @@
     - T Map API의 옵션이 적용된 경로 외의 경로를 얻기 위해 임의 경로 생성
     - 사용자가 선택한 경로 이탈시 경고 후 신고 기능 작동
     <div>
-    <img width="190" src="https://user-images.githubusercontent.com/53103434/103452377-ff6c4300-4d11-11eb-8bb5-59cb7253e876.jpg">&nbsp;&nbsp;
-    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452091-02196900-4d0f-11eb-93eb-18d938ee79e7.jpg">
+    <img width="190" src="https://user-images.githubusercontent.com/53103434/103452377-ff6c4300-4d11-11eb-8bb5-59cb7253e876.jpg">&nbsp;&nbsp;&nbsp;
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452091-02196900-4d0f-11eb-93eb-18d938ee79e7.jpg">&nbsp;&nbsp;&nbsp;
     <img width="195" src="https://user-images.githubusercontent.com/53103434/103452463-22e3bd80-4d13-11eb-8ad8-2913e4f352d0.jpg">
     </div>
     
@@ -43,7 +43,7 @@
     - 사용자가 선택한 경로 이탈시 자동으로 보호자에게 위치가 포함된 메시지 전송 및 112 신고
     - 사용자가 원하는 경로를 선택하면 길 안내와 동시에 자동으로 녹화 진행
     <div>    
-    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452086-fcbc1e80-4d0e-11eb-96e7-44325ba81204.jpg">
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452086-fcbc1e80-4d0e-11eb-96e7-44325ba81204.jpg">&nbsp;&nbsp;&nbsp;
     <img width="200" src="https://user-images.githubusercontent.com/53103434/103452092-02b1ff80-4d0f-11eb-9093-b9f5093e79b5.jpg">
     </div>
     
