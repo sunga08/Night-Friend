@@ -40,9 +40,8 @@
 3. SOS 자동 신고 및 자동 녹화 기능
     - 사용자가 선택한 경로 이탈시 자동으로 보호자에게 위치가 포함된 메시지 전송 및 112 신고
     - 사용자가 원하는 경로를 선택하면 길 안내와 동시에 자동으로 녹화 진행
-    <div>
-    
-    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452086-fcbc1e80-4d0e-11eb-96e7-44325ba81204.jpg">
+    <div>    
+    <img width="180" src="https://user-images.githubusercontent.com/53103434/103452086-fcbc1e80-4d0e-11eb-96e7-44325ba81204.jpg">
     <img width="200" src="https://user-images.githubusercontent.com/53103434/103452092-02b1ff80-4d0f-11eb-9093-b9f5093e79b5.jpg">
     </div>
     
