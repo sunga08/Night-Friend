@@ -25,6 +25,9 @@
 ## 주요 기능
 1. 안심지도 제공
     - CCTV, 가로등, 우범지역, 유흥업소 거리를 지도에 시각화하여 안전 관련 시설물의 위치를 파악할 수 있도록 함
+    <div>
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452093-02b1ff80-4d0f-11eb-8edb-dc94debd9367.jpg">
+    </div>
     
 2. 안전지수를 적용한 경로안내
     - 자체적으로 만든 안전지수 모델을 T Map 경로안내 API에 적용하여 안전 우선 경로 제공
