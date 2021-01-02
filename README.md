@@ -1,4 +1,5 @@
-# 밤길 친구 안드로이드 어플리케이션
+# 밤길 친구 안드로이드 앱
+덕성여대 WISET ICT 팀프로젝트(2020)
 
 ## 개발 배경
 - 목적 
@@ -15,15 +16,15 @@
 
 - 사용 언어 : Java, php
 
-- 개발 환경 : Android Studio, firebase
+- 개발 환경 : Android Studio
 
 - API 및 라이브러리
     - API : T Map API, 공공데이터포털 Open API, 안전 Dream API
-    - 라이브러리 : 
+    - 라이브러리 : tensorflow, firebase, volley, jackson
     
 ## 주요 기능
-1) 안심지도 제공
-2) 안전지수를 적용한 경로안내
-3) SOS 자동 신고 및 자동 녹화 기능
-4) 매칭 서비스
-5) 채팅 기능 제공
+1. 안심지도 제공
+2. 안전지수를 적용한 경로안내
+3. SOS 자동 신고 및 자동 녹화 기능
+4. 매칭 서비스
+5. 채팅 기능 제공
