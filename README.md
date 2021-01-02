@@ -34,9 +34,9 @@
     - T Map API의 옵션이 적용된 경로 외의 경로를 얻기 위해 임의 경로 생성
     - 사용자가 선택한 경로 이탈시 경고 후 신고 기능 작동
     <div>
-    <img width="190" src="https://user-images.githubusercontent.com/53103434/103452377-ff6c4300-4d11-11eb-8bb5-59cb7253e876.jpg">
+    <img width="190" src="https://user-images.githubusercontent.com/53103434/103452377-ff6c4300-4d11-11eb-8bb5-59cb7253e876.jpg">&nbsp;&nbsp;
     <img width="200" src="https://user-images.githubusercontent.com/53103434/103452091-02196900-4d0f-11eb-93eb-18d938ee79e7.jpg">
-    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452463-22e3bd80-4d13-11eb-8ad8-2913e4f352d0.jpg">
+    <img width="195" src="https://user-images.githubusercontent.com/53103434/103452463-22e3bd80-4d13-11eb-8ad8-2913e4f352d0.jpg">
     </div>
     
 3. SOS 자동 신고 및 자동 녹화 기능
