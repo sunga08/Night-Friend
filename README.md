@@ -36,7 +36,7 @@
     <div>
     <img width="190" src="https://user-images.githubusercontent.com/53103434/103452377-ff6c4300-4d11-11eb-8bb5-59cb7253e876.jpg">
     <img width="200" src="https://user-images.githubusercontent.com/53103434/103452091-02196900-4d0f-11eb-93eb-18d938ee79e7.jpg">
-    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452081-f9289780-4d0e-11eb-872d-706cced997a7.jpg"
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452463-22e3bd80-4d13-11eb-8ad8-2913e4f352d0.jpg">
     </div>
     
 3. SOS 자동 신고 및 자동 녹화 기능
