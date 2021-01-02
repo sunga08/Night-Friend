@@ -32,10 +32,27 @@
 2. 안전지수를 적용한 경로안내
     - 자체적으로 만든 안전지수 모델을 T Map 경로안내 API에 적용하여 안전 우선 경로 제공
     - T Map API의 옵션이 적용된 경로 외의 경로를 얻기 위해 임의 경로 생성
+    <div>
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452074-edd56c00-4d0e-11eb-9d28-4b06fc49da5b.jpg">
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452091-02196900-4d0f-11eb-93eb-18d938ee79e7.jpg">
+    </div>
+    
 3. SOS 자동 신고 및 자동 녹화 기능
     - 사용자가 선택한 경로 이탈시 자동으로 보호자에게 위치가 포함된 메시지 전송 및 112 신고
     - 사용자가 원하는 경로를 선택하면 길 안내와 동시에 자동으로 녹화 진행
+    <div>
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452086-fcbc1e80-4d0e-11eb-96e7-44325ba81204.jpg">
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452092-02b1ff80-4d0f-11eb-9093-b9f5093e79b5.jpg">
+    </div>
+    
 4. 매칭 서비스
     - 비슷한 경로를 가진 사용자를 추천하고, 사용자들을 지도에 나타내어 선택할 수 있도록 함
+    <div>
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452090-00e83c00-4d0f-11eb-8817-8e74d3ef3256.jpg">
+    </div>
+    
 5. 채팅 기능 제공
     - 매칭 서비스 이용시 선택한 사용자와 채팅 진행
+    <div>
+    <img width="200" src="https://user-images.githubusercontent.com/53103434/103452094-034a9600-4d0f-11eb-96e5-f2ab743c7e24.jpg">
+    </div>
