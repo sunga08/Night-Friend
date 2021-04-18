@@ -344,7 +344,7 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
 
 
     //안전지수 구하기
-    public double getCount(HashSet<String> hashList){
+    public double getCount(HashSet<String> hashList){ //hashList는 경로상 좌표를 담은 자료구조
 
         //안전지수 모델 삽입
         Interpreter model = null;
@@ -361,6 +361,7 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
         lamp = 0;
         lamp_cnt_list.clear();
 
+        //경로상 좌표 "x좌표, y좌표" 형식의 문자열에 대해
         for (String ii : hashList) {
             boolean isCount = false;
             double x = 0.0, y = 0.0;
@@ -371,14 +372,14 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
                 y = Double.parseDouble(xy[0]);
                 x = Double.parseDouble(xy[1]);
 
-                for (int i = 0; i < Fragment1.lampList.size(); i++) {
+                for (int i = 0; i < Fragment1.lampList.size(); i++) { //가로등 좌표 리스트의 요소들에 대해
 
                     lamp_x = Fragment1.lampList.get(i).getLatitude();
                     lamp_y = Fragment1.lampList.get(i).getLongitude();
 
                     int k = 0;
 
-                    if (x - lamp_x <= 0.0001 && x - lamp_x >= -0.0001 && y - lamp_y <= 0.0001 && y - lamp_y >= -0.0001) {
+                    if (x - lamp_x <= 0.0001 && x - lamp_x >= -0.0001 && y - lamp_y <= 0.0001 && y - lamp_y >= -0.0001) { //경로상 좌표와 가로등 좌표 차이
                         isCount = true;
                         break;
                         //lamp++;
@@ -975,7 +976,7 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
             }
 
             if(x1!=0 && x2!=0) {
-                //두 지점 사이 거리 구해서 40m 이상이면 중간 지점 좌표 별도 배열에 추가
+                //두 지점 사이 거리 구해서 30m 이상이면 중간 지점 좌표 별도 배열에 추가
                 distance(hashSet, extra_list, x1, y1, x2, y2);
                 //Log.e("두 지점사이 거리: ", "" + dist+"m");
             }
@@ -997,11 +998,11 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
         if(dist>30) {
             //30m 이상이면 중간 지점 좌표 구해서 배열에 추가
 
-            double mid_lat = (double) midPoint_array(lat1, lon1, lat2, lon2).get(0);
+            double mid_lat = (double) midPoint_array(lat1, lon1, lat2, lon2).get(0); //두 좌표의 중간 지점의 위도 
             double mid_lon = (double) midPoint_array(lat1, lon1, lat2, lon2).get(1);
             String mid_point_str = "" + mid_lon + "," + mid_lat;
 
-            hashSet.add(mid_point_str);
+            hashSet.add(mid_point_str); 
             extra_list.add(mid_point_str);
             Log.d("extra_point",mid_point_str+" dist: "+dist);
 
